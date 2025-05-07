@@ -1,0 +1,61 @@
+/* **********General***********/
+* {
+    outline: .5px solid red;
+}
+/* Quita los márgenes, usa toda la altura del dispositivo, oculta cuando se sobrepasa, establece la fuente, define el body como un flex container columna*/
+body {
+    margin: 0;
+    height: 100vh;
+    overflow: hidden;
+    font-family: Roboto, sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+/* **********Colores de fondo***********/
+/* Hero y Footer sections */
+.back-dark {
+    background-color: #1F2937;
+}
+/* Quote section*/
+.back-quote {
+    background-color: #E5E7EB;
+}
+/* Button, Call to action background */
+.button-color{
+    background: #3882F6;
+    color: #F9FAF8;
+}
+
+/* **********Texto***********/
+/* Header logo */
+.text-logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+/* This website is awesome */
+.text-hero-main {
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: 900;
+}
+/* Hero text and menu links */
+.text-hero-secondary {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+/* Some random info */
+.text-info-header {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 900;
+}
+/* This is an inspiring... */
+.text-quote {
+    font-size: 36px;
+    font-family: italic;
+    font-weight: 300;
+    color: #1F2937;
+}
+
+/* ************Estructura************ */
